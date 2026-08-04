@@ -1,0 +1,21 @@
+{
+  "persona_id": "tw_tech_engineer_28",
+  "name": "陳明宇 (Alex)",
+  "age": 28,
+  "location": "新竹市",
+  "occupation": "知名科技大廠軟體工程師",
+  "monthly_income": 75000,
+  "monthly_expenses": 42000,
+  "financial_anxiety_tags": ["房價太高買不起", "長期加班擔心健康", "不知如何選 ETF"],
+  "initial_assets": {
+    "cash": 250000,
+    "investments": 100000,
+    "debts": 0
+  },
+  "insurance_coverage": {
+    "has_labor_insurance": true,
+    "has_commercial_health": true,
+    "policy_type": "終身醫療險 (年繳4.5萬，保額偏低)"
+  },
+  "narrative_background": "明宇出社會 4 年，薪水優渥但生活節奏極快。出社會第一年聽親戚介紹買了高額終身險，每月扣完保費與房租後，發現手邊能用的流動資金所剩無幾，對未來的投資規劃充滿茫然..."
+}
