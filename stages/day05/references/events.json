@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "EVT_HEALTH_023",
+    "title": "子宮肌瘤切除",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "檢查發現子宮肌瘤過大，安排達文西手術切除，住院5天。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -128988,
+      "insured_one_time_cash": -12191,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_CAREER_053",
+    "title": "副業收入",
+    "category": "Career",
+    "severity": "minor_pos",
+    "description": "下班經營的自媒體或接案開始有穩定額外收入。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": 84688,
+      "insured_one_time_cash": 84688,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_FAMILY_077",
+    "title": "父母醫療費",
+    "category": "Family",
+    "severity": "major_neg",
+    "description": "長輩生病住院，需要幫忙分擔醫療費用。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": -83167,
+      "insured_one_time_cash": -83167,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_016",
+    "title": "牙齒根管治療",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "蛀牙嚴重需根管治療，並自費全瓷冠牙套。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -25000,
+      "insured_one_time_cash": -25000,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_012",
+    "title": "牙齒根管治療",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "蛀牙嚴重需根管治療，並自費全瓷冠牙套。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -25000,
+      "insured_one_time_cash": -25000,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_043",
+    "title": "心肌梗塞支架",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "突發心肌梗塞，緊急放置塗藥心臟支架。",
+    "min_age": 30,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -333534,
+      "insured_one_time_cash": -32922,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 3,
+      "annual_expense_increase": 120000,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "major_disease"
+  },
+  {
+    "id": "EVT_FAMILY_086",
+    "title": "父母醫療費",
+    "category": "Family",
+    "severity": "major_neg",
+    "description": "長輩生病住院，需要幫忙分擔醫療費用。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": -104862,
+      "insured_one_time_cash": -104862,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_035",
+    "title": "盲腸炎手術",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "突發急性盲腸炎，緊急進行微創切除手術，住院3天。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -51721,
+      "insured_one_time_cash": -4366,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 1,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_FINANCE_099",
+    "title": "惡性通膨",
+    "category": "Finance",
+    "severity": "major_neg",
+    "description": "原物料大漲導致嚴重通貨膨脹，日常開銷大幅增加。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.15
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_CAREER_063",
+    "title": "公司減薪",
+    "category": "Career",
+    "severity": "minor_neg",
+    "description": "公司營運不佳，共體時艱全面減薪10%。",
+    "min_age": 25,
+    "max_age": 55,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": -4338,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_031",
+    "title": "視網膜剝離",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "高度近視引發視網膜剝離，緊急進行雷射修補手術。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -45822,
+      "insured_one_time_cash": -4832,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_007",
+    "title": "流感看診",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "感染A型流感，自費抗病毒藥物。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -1500,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_020",
+    "title": "流感看診",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "感染A型流感，自費抗病毒藥物。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -1500,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_CAREER_069",
+    "title": "無薪假",
+    "category": "Career",
+    "severity": "major_neg",
+    "description": "訂單銳減，公司實施無薪假，收入銳減。",
+    "min_age": 28,
+    "max_age": 55,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 2,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_037",
+    "title": "車禍擦挫傷",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "騎車發生小車禍，多處擦挫傷需換藥及復健，休養半個月。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -40406,
+      "insured_one_time_cash": -1755,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_FAMILY_074",
+    "title": "親友紅包",
+    "category": "Family",
+    "severity": "minor_neg",
+    "description": "近期多位好友結婚生子，紅包支出大增。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": -19454,
+      "insured_one_time_cash": -19454,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_025",
+    "title": "子宮肌瘤切除",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "檢查發現子宮肌瘤過大，安排達文西手術切除，住院5天。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -169103,
+      "insured_one_time_cash": -12487,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 1,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_030",
+    "title": "車禍擦挫傷",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "騎車發生小車禍，多處擦挫傷需換藥及復健，休養半個月。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -33867,
+      "insured_one_time_cash": -2395,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_FAMILY_079",
+    "title": "父母醫療費",
+    "category": "Family",
+    "severity": "major_neg",
+    "description": "長輩生病住院，需要幫忙分擔醫療費用。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": -116393,
+      "insured_one_time_cash": -116393,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_FAMILY_075",
+    "title": "長輩資助頭期款",
+    "category": "Family",
+    "severity": "major_pos",
+    "description": "父母贊助買房頭期款，減輕負擔。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": 1074474,
+      "insured_one_time_cash": 1074474,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_CAREER_067",
+    "title": "公司減薪",
+    "category": "Career",
+    "severity": "minor_neg",
+    "description": "公司營運不佳，共體時艱全面減薪10%。",
+    "min_age": 25,
+    "max_age": 55,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": -7188,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_FAMILY_073",
+    "title": "迎接新生兒",
+    "category": "Family",
+    "severity": "major_neg",
+    "description": "家中增添新成員，月子中心及嬰兒用品開銷龐大。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": -243423,
+      "insured_one_time_cash": -243423,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 120000,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_FAMILY_082",
+    "title": "長輩資助頭期款",
+    "category": "Family",
+    "severity": "major_pos",
+    "description": "父母贊助買房頭期款，減輕負擔。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": 836663,
+      "insured_one_time_cash": 836663,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_FINANCE_097",
+    "title": "詐騙陷阱",
+    "category": "Finance",
+    "severity": "major_neg",
+    "description": "誤信投資群組，遭詐騙部分資金。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -100000,
+      "insured_one_time_cash": -100000,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_CAREER_062",
+    "title": "成功跳槽",
+    "category": "Career",
+    "severity": "major_pos",
+    "description": "被獵頭挖角到外商公司，薪資條件大幅躍升。",
+    "min_age": 25,
+    "max_age": 55,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 8958,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_045",
+    "title": "罹患初期癌症",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "健檢意外發現初期癌症，需進行標靶治療與手術，需休養6個月。",
+    "min_age": 30,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -1312632,
+      "insured_one_time_cash": -99332,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 6,
+      "annual_expense_increase": 120000,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "major_disease"
+  },
+  {
+    "id": "EVT_CAREER_060",
+    "title": "副業收入",
+    "category": "Career",
+    "severity": "minor_pos",
+    "description": "下班經營的自媒體或接案開始有穩定額外收入。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": 247376,
+      "insured_one_time_cash": 247376,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_013",
+    "title": "流感看診",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "感染A型流感，自費抗病毒藥物。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -1500,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_FINANCE_098",
+    "title": "詐騙陷阱",
+    "category": "Finance",
+    "severity": "major_neg",
+    "description": "誤信投資群組，遭詐騙部分資金。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -100000,
+      "insured_one_time_cash": -100000,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_FAMILY_080",
+    "title": "親友紅包",
+    "category": "Family",
+    "severity": "minor_neg",
+    "description": "近期多位好友結婚生子，紅包支出大增。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": -19297,
+      "insured_one_time_cash": -19297,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_FAMILY_090",
+    "title": "結婚籌備",
+    "category": "Family",
+    "severity": "major_neg",
+    "description": "與伴侶步入禮堂，支出婚紗、宴客及蜜月費用。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": -356641,
+      "insured_one_time_cash": -356641,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_042",
+    "title": "罹患初期癌症",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "健檢意外發現初期癌症，需進行標靶治療與手術，需休養6個月。",
+    "min_age": 30,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -1264666,
+      "insured_one_time_cash": -106540,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 6,
+      "annual_expense_increase": 120000,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "major_disease"
+  },
+  {
+    "id": "EVT_HEALTH_014",
+    "title": "牙齒根管治療",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "蛀牙嚴重需根管治療，並自費全瓷冠牙套。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -25000,
+      "insured_one_time_cash": -25000,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_003",
+    "title": "拔智齒",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "水平智齒拔除，自費膠原蛋白幫助傷口復原。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -5000,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_048",
+    "title": "心肌梗塞支架",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "突發心肌梗塞，緊急放置塗藥心臟支架。",
+    "min_age": 30,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -371244,
+      "insured_one_time_cash": -27121,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 3,
+      "annual_expense_increase": 120000,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "major_disease"
+  },
+  {
+    "id": "EVT_CAREER_064",
+    "title": "無薪假",
+    "category": "Career",
+    "severity": "major_neg",
+    "description": "訂單銳減，公司實施無薪假，收入銳減。",
+    "min_age": 28,
+    "max_age": 55,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 4,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_021",
+    "title": "子宮肌瘤切除",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "檢查發現子宮肌瘤過大，安排達文西手術切除，住院5天。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -174168,
+      "insured_one_time_cash": -14793,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_CAREER_051",
+    "title": "成功跳槽",
+    "category": "Career",
+    "severity": "major_pos",
+    "description": "被獵頭挖角到外商公司，薪資條件大幅躍升。",
+    "min_age": 25,
+    "max_age": 55,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 18341,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_CAREER_055",
+    "title": "成功跳槽",
+    "category": "Career",
+    "severity": "major_pos",
+    "description": "被獵頭挖角到外商公司，薪資條件大幅躍升。",
+    "min_age": 25,
+    "max_age": 55,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 11761,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_004",
+    "title": "牙齒根管治療",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "蛀牙嚴重需根管治療，並自費全瓷冠牙套。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -25000,
+      "insured_one_time_cash": -25000,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_047",
+    "title": "長期照護需求",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "突發中風導致半身不遂，需要長期照護及復健設備。",
+    "min_age": 30,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -835117,
+      "insured_one_time_cash": -102952,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 3,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "major_disease"
+  },
+  {
+    "id": "EVT_CAREER_068",
+    "title": "無薪假",
+    "category": "Career",
+    "severity": "major_neg",
+    "description": "訂單銳減，公司實施無薪假，收入銳減。",
+    "min_age": 28,
+    "max_age": 55,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 5,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_CAREER_056",
+    "title": "年度績效獎金",
+    "category": "Career",
+    "severity": "minor_pos",
+    "description": "完成重大專案，獲得豐厚的績效獎金。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": 52959,
+      "insured_one_time_cash": 52959,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_FINANCE_093",
+    "title": "股市大修正",
+    "category": "Finance",
+    "severity": "major_neg",
+    "description": "全球股市遭遇黑天鵝事件，投資組合帳面大幅虧損。 (資產縮水將由 Historical Simulator 處理)",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_FAMILY_081",
+    "title": "迎接新生兒",
+    "category": "Family",
+    "severity": "major_neg",
+    "description": "家中增添新成員，月子中心及嬰兒用品開銷龐大。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": -235799,
+      "insured_one_time_cash": -235799,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 120000,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_008",
+    "title": "腸胃炎急診",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "半夜急性腸胃炎掛急診，自費吊點滴與拿藥。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -2000,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_CAREER_065",
+    "title": "產業不景氣裁員",
+    "category": "Career",
+    "severity": "major_neg",
+    "description": "公司受大環境影響進行裁員，失業數月。",
+    "min_age": 28,
+    "max_age": 55,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 2,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_CAREER_070",
+    "title": "產業不景氣裁員",
+    "category": "Career",
+    "severity": "major_neg",
+    "description": "公司受大環境影響進行裁員，失業數月。",
+    "min_age": 28,
+    "max_age": 55,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 6,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_038",
+    "title": "子宮肌瘤切除",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "檢查發現子宮肌瘤過大，安排達文西手術切除，住院5天。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -157998,
+      "insured_one_time_cash": -15989,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 1,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_017",
+    "title": "腸胃炎急診",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "半夜急性腸胃炎掛急診，自費吊點滴與拿藥。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -2000,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_CAREER_058",
+    "title": "升職加薪",
+    "category": "Career",
+    "severity": "minor_pos",
+    "description": "工作表現優異獲得晉升，月薪大幅提升。",
+    "min_age": 25,
+    "max_age": 55,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 19714,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_FINANCE_091",
+    "title": "詐騙陷阱",
+    "category": "Finance",
+    "severity": "major_neg",
+    "description": "誤信投資群組，遭詐騙部分資金。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -100000,
+      "insured_one_time_cash": -100000,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_018",
+    "title": "腸胃炎急診",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "半夜急性腸胃炎掛急診，自費吊點滴與拿藥。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -2000,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_022",
+    "title": "椎間盤突出",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "長期坐姿不良導致椎間盤突出，需自費PRP注射及復健。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -69349,
+      "insured_one_time_cash": -10575,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_CAREER_066",
+    "title": "公司減薪",
+    "category": "Career",
+    "severity": "minor_neg",
+    "description": "公司營運不佳，共體時艱全面減薪10%。",
+    "min_age": 25,
+    "max_age": 55,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": -4618,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_CAREER_057",
+    "title": "成功跳槽",
+    "category": "Career",
+    "severity": "major_pos",
+    "description": "被獵頭挖角到外商公司，薪資條件大幅躍升。",
+    "min_age": 25,
+    "max_age": 55,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 17595,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_009",
+    "title": "拔智齒",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "水平智齒拔除，自費膠原蛋白幫助傷口復原。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -5000,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_011",
+    "title": "運動扭傷",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "週末打球嚴重扭傷，自費震波治療數次。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -15000,
+      "insured_one_time_cash": -1000,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_027",
+    "title": "視網膜剝離",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "高度近視引發視網膜剝離，緊急進行雷射修補手術。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -55082,
+      "insured_one_time_cash": -5770,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 1,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_029",
+    "title": "視網膜剝離",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "高度近視引發視網膜剝離，緊急進行雷射修補手術。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -40661,
+      "insured_one_time_cash": -4396,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_024",
+    "title": "盲腸炎手術",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "突發急性盲腸炎，緊急進行微創切除手術，住院3天。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -56327,
+      "insured_one_time_cash": -4594,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_FINANCE_095",
+    "title": "大額退稅",
+    "category": "Finance",
+    "severity": "minor_pos",
+    "description": "報稅時發現符合多項扣除額，獲得一筆退稅。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": 20000,
+      "insured_one_time_cash": 20000,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_FAMILY_085",
+    "title": "長輩資助頭期款",
+    "category": "Family",
+    "severity": "major_pos",
+    "description": "父母贊助買房頭期款，減輕負擔。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": 968354,
+      "insured_one_time_cash": 968354,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_039",
+    "title": "視網膜剝離",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "高度近視引發視網膜剝離，緊急進行雷射修補手術。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -59205,
+      "insured_one_time_cash": -4817,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 1,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_FAMILY_078",
+    "title": "結婚籌備",
+    "category": "Family",
+    "severity": "major_neg",
+    "description": "與伴侶步入禮堂，支出婚紗、宴客及蜜月費用。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": -395831,
+      "insured_one_time_cash": -395831,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_019",
+    "title": "拔智齒",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "水平智齒拔除，自費膠原蛋白幫助傷口復原。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -5000,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_032",
+    "title": "椎間盤突出",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "長期坐姿不良導致椎間盤突出，需自費PRP注射及復健。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -87517,
+      "insured_one_time_cash": -11647,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_FAMILY_089",
+    "title": "迎接新生兒",
+    "category": "Family",
+    "severity": "major_neg",
+    "description": "家中增添新成員，月子中心及嬰兒用品開銷龐大。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": -285064,
+      "insured_one_time_cash": -285064,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 120000,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_FINANCE_096",
+    "title": "股市大修正",
+    "category": "Finance",
+    "severity": "major_neg",
+    "description": "全球股市遭遇黑天鵝事件，投資組合帳面大幅虧損。 (資產縮水將由 Historical Simulator 處理)",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_FAMILY_072",
+    "title": "長輩資助頭期款",
+    "category": "Family",
+    "severity": "major_pos",
+    "description": "父母贊助買房頭期款，減輕負擔。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": 939250,
+      "insured_one_time_cash": 939250,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_CAREER_061",
+    "title": "成功跳槽",
+    "category": "Career",
+    "severity": "major_pos",
+    "description": "被獵頭挖角到外商公司，薪資條件大幅躍升。",
+    "min_age": 25,
+    "max_age": 55,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 14389,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_CAREER_052",
+    "title": "升職加薪",
+    "category": "Career",
+    "severity": "minor_pos",
+    "description": "工作表現優異獲得晉升，月薪大幅提升。",
+    "min_age": 25,
+    "max_age": 55,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 5384,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_015",
+    "title": "運動扭傷",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "週末打球嚴重扭傷，自費震波治療數次。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -15000,
+      "insured_one_time_cash": -1000,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_FAMILY_071",
+    "title": "親友紅包",
+    "category": "Family",
+    "severity": "minor_neg",
+    "description": "近期多位好友結婚生子，紅包支出大增。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": -17746,
+      "insured_one_time_cash": -17746,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_041",
+    "title": "心肌梗塞支架",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "突發心肌梗塞，緊急放置塗藥心臟支架。",
+    "min_age": 30,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -352181,
+      "insured_one_time_cash": -31043,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 3,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "major_disease"
+  },
+  {
+    "id": "EVT_HEALTH_049",
+    "title": "長期照護需求",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "突發中風導致半身不遂，需要長期照護及復健設備。",
+    "min_age": 30,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -766130,
+      "insured_one_time_cash": -90724,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 3,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "major_disease"
+  },
+  {
+    "id": "EVT_HEALTH_033",
+    "title": "視網膜剝離",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "高度近視引發視網膜剝離，緊急進行雷射修補手術。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -44165,
+      "insured_one_time_cash": -4821,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_FAMILY_084",
+    "title": "親友紅包",
+    "category": "Family",
+    "severity": "minor_neg",
+    "description": "近期多位好友結婚生子，紅包支出大增。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": -18477,
+      "insured_one_time_cash": -18477,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_005",
+    "title": "牙齒根管治療",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "蛀牙嚴重需根管治療，並自費全瓷冠牙套。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -25000,
+      "insured_one_time_cash": -25000,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_002",
+    "title": "拔智齒",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "水平智齒拔除，自費膠原蛋白幫助傷口復原。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -5000,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_001",
+    "title": "運動扭傷",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "週末打球嚴重扭傷，自費震波治療數次。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -15000,
+      "insured_one_time_cash": -1000,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_026",
+    "title": "車禍擦挫傷",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "騎車發生小車禍，多處擦挫傷需換藥及復健，休養半個月。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -40054,
+      "insured_one_time_cash": -2153,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_050",
+    "title": "心肌梗塞支架",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "突發心肌梗塞，緊急放置塗藥心臟支架。",
+    "min_age": 30,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -317409,
+      "insured_one_time_cash": -32862,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 6,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "major_disease"
+  },
+  {
+    "id": "EVT_FAMILY_083",
+    "title": "親友紅包",
+    "category": "Family",
+    "severity": "minor_neg",
+    "description": "近期多位好友結婚生子，紅包支出大增。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": -16266,
+      "insured_one_time_cash": -16266,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_010",
+    "title": "牙齒根管治療",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "蛀牙嚴重需根管治療，並自費全瓷冠牙套。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -25000,
+      "insured_one_time_cash": -25000,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_FINANCE_092",
+    "title": "惡性通膨",
+    "category": "Finance",
+    "severity": "major_neg",
+    "description": "原物料大漲導致嚴重通貨膨脹，日常開銷大幅增加。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.15
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_034",
+    "title": "子宮肌瘤切除",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "檢查發現子宮肌瘤過大，安排達文西手術切除，住院5天。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -139012,
+      "insured_one_time_cash": -15798,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_FAMILY_088",
+    "title": "父母醫療費",
+    "category": "Family",
+    "severity": "major_neg",
+    "description": "長輩生病住院，需要幫忙分擔醫療費用。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": -84290,
+      "insured_one_time_cash": -84290,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_006",
+    "title": "運動扭傷",
+    "category": "Health",
+    "severity": "minor_neg",
+    "description": "週末打球嚴重扭傷，自費震波治療數次。",
+    "min_age": 22,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -15000,
+      "insured_one_time_cash": -1000,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_044",
+    "title": "罹患初期癌症",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "健檢意外發現初期癌症，需進行標靶治療與手術，需休養6個月。",
+    "min_age": 30,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -1235833,
+      "insured_one_time_cash": -90798,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 6,
+      "annual_expense_increase": 120000,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "major_disease"
+  },
+  {
+    "id": "EVT_CAREER_054",
+    "title": "副業收入",
+    "category": "Career",
+    "severity": "minor_pos",
+    "description": "下班經營的自媒體或接案開始有穩定額外收入。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": 201665,
+      "insured_one_time_cash": 201665,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_046",
+    "title": "尿毒症洗腎",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "腎功能惡化需終身洗腎，並進行自費瘻管手術。",
+    "min_age": 30,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -290520,
+      "insured_one_time_cash": -31072,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 6,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "major_disease"
+  },
+  {
+    "id": "EVT_FINANCE_094",
+    "title": "惡性通膨",
+    "category": "Finance",
+    "severity": "major_neg",
+    "description": "原物料大漲導致嚴重通貨膨脹，日常開銷大幅增加。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": 0,
+      "insured_one_time_cash": 0,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.15
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_FINANCE_100",
+    "title": "詐騙陷阱",
+    "category": "Finance",
+    "severity": "major_neg",
+    "description": "誤信投資群組，遭詐騙部分資金。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -100000,
+      "insured_one_time_cash": -100000,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_036",
+    "title": "椎間盤突出",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "長期坐姿不良導致椎間盤突出，需自費PRP注射及復健。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -90335,
+      "insured_one_time_cash": -8735,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_CAREER_059",
+    "title": "副業收入",
+    "category": "Career",
+    "severity": "minor_pos",
+    "description": "下班經營的自媒體或接案開始有穩定額外收入。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": 160506,
+      "insured_one_time_cash": 160506,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_HEALTH_028",
+    "title": "子宮肌瘤切除",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "檢查發現子宮肌瘤過大，安排達文西手術切除，住院5天。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -168684,
+      "insured_one_time_cash": -12105,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_HEALTH_040",
+    "title": "車禍擦挫傷",
+    "category": "Health",
+    "severity": "major_neg",
+    "description": "騎車發生小車禍，多處擦挫傷需換藥及復健，休養半個月。",
+    "min_age": 25,
+    "max_age": 60,
+    "financial_impact": {
+      "one_time_cash": -32274,
+      "insured_one_time_cash": -1767,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 1,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": true,
+    "claim_category": "medical_real_expense"
+  },
+  {
+    "id": "EVT_FAMILY_087",
+    "title": "父母醫療費",
+    "category": "Family",
+    "severity": "major_neg",
+    "description": "長輩生病住院，需要幫忙分擔醫療費用。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": -91353,
+      "insured_one_time_cash": -91353,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  },
+  {
+    "id": "EVT_FAMILY_076",
+    "title": "長輩資助頭期款",
+    "category": "Family",
+    "severity": "major_pos",
+    "description": "父母贊助買房頭期款，減輕負擔。",
+    "min_age": 28,
+    "max_age": 45,
+    "financial_impact": {
+      "one_time_cash": 1068577,
+      "insured_one_time_cash": 1068577,
+      "monthly_income_delta": 0,
+      "income_freeze_months": 0,
+      "annual_expense_increase": 0,
+      "annual_expense_multiplier": 1.0
+    },
+    "insurance_claimable": false,
+    "claim_category": "none"
+  }
+]
