@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FinancialProfile",
+  "type": "object",
+  "properties": {
+    "basic_info": {
+      "type": "object",
+      "description": "基本財務與人口統計資訊（必填）",
+      "properties": {
+        "age": { "type": "integer", "minimum": 0, "description": "年齡" },
+        "gender": { "type": "string", "enum": ["M", "F", "Other"], "description": "性別" },
+        "monthly_income": { "type": "integer", "minimum": 0, "description": "平均月收入 (TWD)" },
+        "monthly_surplus": { "type": "integer", "description": "平均每月結餘/可支配資金 (TWD)" },
+        "total_savings": { "type": "integer", "minimum": 0, "description": "目前活存與定存總額 (TWD)" },
+        "target_retirement_age": { "type": "integer", "minimum": 18, "description": "計畫或夢想的退休年紀" }
+      },
+      "required": ["age", "gender", "monthly_income", "monthly_surplus", "total_savings", "target_retirement_age"]
+    },
+    "extension_info": {
+      "type": "object",
+      "description": "家庭狀況與風險偏好細節（選填，用於精確規劃）",
+      "properties": {
+        "family_status": {
+          "type": "string",
+          "enum": ["Single", "Married_No_Kids", "Married_With_Kids", "Single_Parent"],
+          "description": "家庭狀況"
+        },
+        "dependents_count": { "type": "integer", "minimum": 0, "description": "扶養人數（父母或小孩）" },
+        "mortgage_balance": { "type": "integer", "minimum": 0, "description": "剩餘房貸/大筆債務總額 (TWD)" },
+        "existing_policies": {
+          "type": "array",
+          "description": "既有保單簡述（如：已有基本實支實付、公司團保）",
+          "items": { "type": "string" }
+        },
+        "risk_appetite": {
+          "type": "string",
+          "enum": ["Conservative", "Moderate", "Aggressive"],
+          "description": "個人風險偏好（保守、穩健、積極）"
+        }
+      }
+    }
+  },
+  "required": ["basic_info"]
+}
