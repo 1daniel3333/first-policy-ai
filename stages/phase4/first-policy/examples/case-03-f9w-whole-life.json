@@ -1,0 +1,20 @@
+{
+  "policy_name": "A保險公司-利率變動型美元終身壽險(去識別化)",
+  "insurer": "A保險公司",
+  "policy_type": "Other",
+  "is_main_policy": true,
+  "annual_premium": 60000,
+  "coverage_amount": 100000,
+  "key_benefits": [
+    "身故保險金（美元）",
+    "完全失能保險金（美元）",
+    "宣告利率增額累積或抵繳保費（資產儲蓄型）"
+  ],
+  "exclusions": [
+    "要保人故意致被保險人於死",
+    "投保二年內故意自殺"
+  ],
+  "waiting_period_days": 0,
+  "author_notes": "案例解析：此類終身型壽險實質上帶有強烈儲蓄性質，保費較高。若在初期預算有限時投入過多，容易鎖死資金流動性，擠壓緊急預備金與投資水庫的空間，產生資金運用上的機會成本風險。",
+  "leverage_classification": "高預算擠壓 (典型預算黑洞，建議檢視)"
+}
