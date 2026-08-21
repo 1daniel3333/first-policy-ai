@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PolicySchema",
+  "type": "object",
+  "properties": {
+    "policy_name": { "type": "string", "description": "保單名稱（如：安心住院醫療險附約）" },
+    "insurer": { "type": "string", "description": "保險公司名稱" },
+    "policy_type": { 
+      "type": "string", 
+      "enum": ["Accident", "Reimbursement_Medical", "Term_Life", "Critical_Illness", "Disability", "Other"],
+      "description": "主要險種分類" 
+    },
+    "is_main_policy": { "type": "boolean", "description": "主約 (true) 或附約 (false)" },
+    "annual_premium": { "type": "integer", "description": "年繳保費 (TWD)" },
+    "coverage_amount": { "type": "integer", "description": "主要保額 (TWD)" },
+    "key_benefits": { 
+      "type": "array", 
+      "items": { "type": "string" },
+      "description": "主要理賠項目摘要（如：住院實支實付上限12萬、手術自費10萬）" 
+    },
+    "exclusions": { 
+      "type": "array", 
+      "items": { "type": "string" },
+      "description": "除外責任與不給付項目（如：美容牙科門診、非疾病意圖）" 
+    },
+    "waiting_period_days": { "type": "integer", "description": "等待期天數（如 30 天）" }
+  },
+  "required": ["policy_name", "policy_type", "coverage_amount"]
+}
