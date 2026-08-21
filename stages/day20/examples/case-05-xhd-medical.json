@@ -1,0 +1,21 @@
+{
+  "policy_name": "A保險公司-實支實付醫療費用健康保險附約(去識別化)",
+  "insurer": "A保險公司",
+  "policy_type": "Reimbursement_Medical",
+  "is_main_policy": false,
+  "annual_premium": 4500,
+  "coverage_amount": 120000,
+  "key_benefits": [
+    "住院醫療費用保險金（實支實付自費上限 12 萬元）",
+    "住院手術費用與門診手術費用保險金",
+    "住院每日病房費限額給付"
+  ],
+  "exclusions": [
+    "美容手術、外科整形、非醫療必要之拔牙或牙科手術",
+    "健檢、療養或非以直接治療疾病為目的之住院",
+    "未經醫師處方之自購藥品與補品"
+  ],
+  "waiting_period_days": 30,
+  "author_notes": "案例解析：此類實支實付險能有效轉嫁住院與門診手術雜費，防範微創手術自費。規劃重點在於「保大不保小」，將預算用於填補難以自行負擔的大額醫療開銷。",
+  "leverage_classification": "合理負擔 (小資可承受)"
+}

@@ -1,0 +1,19 @@
+{
+  "policy_name": "A保險公司-重大傷病一年期健康保險附約(去識別化)",
+  "insurer": "A保險公司",
+  "policy_type": "Critical_Illness",
+  "is_main_policy": false,
+  "annual_premium": 3200,
+  "coverage_amount": 1000000,
+  "key_benefits": [
+    "重大傷病保險金（經初次診斷取得全民健康保險重大傷病證明者，給付 100 萬一次金）",
+    "特定重大傷病額外給付"
+  ],
+  "exclusions": [
+    "投保前已存在之重大傷病",
+    "全民健康保險排除給付範圍之項目（如外傷、職業病、先天性疾病除外項目）"
+  ],
+  "waiting_period_days": 30,
+  "author_notes": "案例解析：此類重大傷病險以健保局核發之重大傷病證明作為理賠依據，定義相對明確客觀，能一次性給付大筆金額，適合作為抗癌與重症初期的醫療及生活費中斷補償。",
+  "leverage_classification": "大風險防護 (中低負擔)"
+}
